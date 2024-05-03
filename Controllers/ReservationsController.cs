@@ -71,7 +71,7 @@ namespace HenryMedsReservationAPI.Controllers
             await _reservationContext.SaveChangesAsync();
 
             return Ok("Success: Reservation confirmed");
-        }
+        } 
 
         /// <summary>
         /// get reservations by reservation id
